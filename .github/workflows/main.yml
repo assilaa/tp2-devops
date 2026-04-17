@@ -26,7 +26,7 @@ jobs:
       - name: Build and test with Maven
         working-directory: ./simple-api
         run: mvn -B verify sonar:sonar \
-            -Dsonar.projectKey=tp2-devops \
+            -Dsonar.projectKey=assilaa_tp2-devops \
             -Dsonar.organization=assilaa \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
